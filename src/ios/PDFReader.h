@@ -1,6 +1,7 @@
 #import <Cordova/CDVPlugin.h>
+#import <UIKit/UIKit.h>
 
-@interface PDFReader : CDVPlugin {
+@interface PDFReader : CDVPlugin, UIViewController {
 
 }
 

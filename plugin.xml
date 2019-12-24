@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+id="cordova-plugin-pdf-reader" version="0.0.1">
+    <name>PDFReader</name>
+    <description>Cordova PDF Reader Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,ios,pdf,reader,document</keywords>
+    <repo>https://github.com/marwannassef/PDFReader.git</repo>
+    <issue>https://github.com/marwannassef/PDFReader/issues</issue>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <js-module src="www/pdfreader.js" name="pdfReader">
+        <clobbers target="PDFReader" />
+    </js-module>
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="PDFReader">
+                <param name="ios-package" value="PDFReader"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/PDFReader.h" />
+        <source-file src="src/ios/PDFReader.m" />
+    </platform>
+</plugin>

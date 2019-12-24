@@ -1,0 +1,34 @@
+{
+    "name": "cordova-plugin-pdf-reader",
+    "version": "0.0.1",
+    "description": "Cordova PDF Reader Plugin",
+    "cordova": {
+      "id": "cordova-plugin-pdf-reader",
+      "platforms": [
+        "ios"
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/marwannassef/PDFReader.git"
+    },
+    "keywords": [
+      "cordova",
+      "ios",
+      "pdf",
+      "reader",
+      "document"
+    ],
+    "engines": [
+      {
+        "name": "cordova",
+        "version": ">=3.0.0"
+      }
+    ],
+    "author": "Marwan Nassef <marwan.ali.ashour@gmail.com>",
+    "license": "MRN",
+    "bugs": {
+      "url": "https://github.com/marwannassef/PDFReader/issues"
+    },
+    "homepage": "https://github.com/marwannassef/PDFReader/"
+  }
